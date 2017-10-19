@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common.Orm\Common.Orm.csproj" />
+    <ProjectReference Include="..\LTM.Teste.Domain\LTM.Teste.Domain.csproj" />
+    <ProjectReference Include="..\LTM.Teste.Enums\LTM.Teste.Enums.csproj" />
+  </ItemGroup>
+
+</Project>

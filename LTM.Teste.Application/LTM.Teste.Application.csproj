@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <AssemblyName>LTM.Teste.Application</AssemblyName>
+    <PackageId>LTM.Teste.Application</PackageId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common.Dto\Common.Dto.csproj" />
+    <ProjectReference Include="..\LTM.Teste.CrossCuting\LTM.Teste.CrossCuting.csproj" />
+    <ProjectReference Include="..\LTM.Teste.Domain\LTM.Teste.Domain.csproj" />
+    <ProjectReference Include="..\LTM.Teste.Dto\LTM.Teste.Dto.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.1.0" />
+  </ItemGroup>
+
+</Project>

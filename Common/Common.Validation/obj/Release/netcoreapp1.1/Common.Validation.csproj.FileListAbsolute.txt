@@ -1,0 +1,9 @@
+C:\Projetos\Target.Pendencias\Common.Validation\bin\Release\netcoreapp1.1\Common.Validation.deps.json
+C:\Projetos\Target.Pendencias\Common.Validation\bin\Release\netcoreapp1.1\Common.Validation.dll
+C:\Projetos\Target.Pendencias\Common.Validation\bin\Release\netcoreapp1.1\Common.Validation.pdb
+C:\Projetos\Target.Pendencias\Common.Validation\bin\Release\netcoreapp1.1\Common.Domain.dll
+C:\Projetos\Target.Pendencias\Common.Validation\bin\Release\netcoreapp1.1\Common.Domain.pdb
+C:\Projetos\Target.Pendencias\Common.Validation\obj\Release\netcoreapp1.1\Common.Validation.csprojResolveAssemblyReference.cache
+C:\Projetos\Target.Pendencias\Common.Validation\obj\Release\netcoreapp1.1\Common.Validation.AssemblyInfo.cs
+C:\Projetos\Target.Pendencias\Common.Validation\obj\Release\netcoreapp1.1\Common.Validation.dll
+C:\Projetos\Target.Pendencias\Common.Validation\obj\Release\netcoreapp1.1\Common.Validation.pdb

@@ -1,0 +1,9 @@
+C:\Projetos\Target.Pendencias\Common.Dto\bin\Release\netcoreapp1.1\Common.Dto.deps.json
+C:\Projetos\Target.Pendencias\Common.Dto\bin\Release\netcoreapp1.1\Common.Dto.dll
+C:\Projetos\Target.Pendencias\Common.Dto\bin\Release\netcoreapp1.1\Common.Dto.pdb
+C:\Projetos\Target.Pendencias\Common.Dto\bin\Release\netcoreapp1.1\Common.Domain.dll
+C:\Projetos\Target.Pendencias\Common.Dto\bin\Release\netcoreapp1.1\Common.Domain.pdb
+C:\Projetos\Target.Pendencias\Common.Dto\obj\Release\netcoreapp1.1\Common.Dto.AssemblyInfo.cs
+C:\Projetos\Target.Pendencias\Common.Dto\obj\Release\netcoreapp1.1\Common.Dto.dll
+C:\Projetos\Target.Pendencias\Common.Dto\obj\Release\netcoreapp1.1\Common.Dto.pdb
+C:\Projetos\Target.Pendencias\Common.Dto\obj\Release\netcoreapp1.1\Common.Dto.csprojResolveAssemblyReference.cache
