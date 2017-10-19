@@ -26,3 +26,11 @@ C:\Projetos\pendencia2\Common.Domain\obj\Debug\netcoreapp1.1\Common.Domain.cspro
 C:\Projetos\pendencia2\Common.Domain\obj\Debug\netcoreapp1.1\Common.Domain.AssemblyInfo.cs
 C:\Projetos\pendencia2\Common.Domain\obj\Debug\netcoreapp1.1\Common.Domain.dll
 C:\Projetos\pendencia2\Common.Domain\obj\Debug\netcoreapp1.1\Common.Domain.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Domain\bin\Debug\netcoreapp1.1\Common.Domain.deps.json
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Domain\bin\Debug\netcoreapp1.1\Common.Domain.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Domain\bin\Debug\netcoreapp1.1\Common.Domain.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Domain\obj\Debug\netcoreapp1.1\Common.Domain.csprojResolveAssemblyReference.cache
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Domain\obj\Debug\netcoreapp1.1\Common.Domain.csproj.CoreCompileInputs.cache
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Domain\obj\Debug\netcoreapp1.1\Common.Domain.AssemblyInfo.cs
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Domain\obj\Debug\netcoreapp1.1\Common.Domain.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Domain\obj\Debug\netcoreapp1.1\Common.Domain.pdb

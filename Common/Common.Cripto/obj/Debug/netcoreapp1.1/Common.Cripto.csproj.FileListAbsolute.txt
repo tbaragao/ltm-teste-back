@@ -1,0 +1,10 @@
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Cripto\bin\Debug\netcoreapp1.1\Common.Cripto.deps.json
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Cripto\bin\Debug\netcoreapp1.1\Common.Cripto.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Cripto\bin\Debug\netcoreapp1.1\Common.Cripto.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Cripto\bin\Debug\netcoreapp1.1\Common.Domain.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Cripto\bin\Debug\netcoreapp1.1\Common.Domain.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Cripto\obj\Debug\netcoreapp1.1\Common.Cripto.csproj.CoreCompileInputs.cache
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Cripto\obj\Debug\netcoreapp1.1\Common.Cripto.AssemblyInfo.cs
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Cripto\obj\Debug\netcoreapp1.1\Common.Cripto.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Cripto\obj\Debug\netcoreapp1.1\Common.Cripto.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Cripto\obj\Debug\netcoreapp1.1\Common.Cripto.csprojResolveAssemblyReference.cache

@@ -1,0 +1,8 @@
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Mail\bin\Debug\netcoreapp1.1\Common.Mail.deps.json
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Mail\bin\Debug\netcoreapp1.1\Common.Mail.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Mail\bin\Debug\netcoreapp1.1\Common.Mail.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Mail\obj\Debug\netcoreapp1.1\Common.Mail.csprojResolveAssemblyReference.cache
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Mail\obj\Debug\netcoreapp1.1\Common.Mail.csproj.CoreCompileInputs.cache
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Mail\obj\Debug\netcoreapp1.1\Common.Mail.AssemblyInfo.cs
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Mail\obj\Debug\netcoreapp1.1\Common.Mail.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Mail\obj\Debug\netcoreapp1.1\Common.Mail.pdb

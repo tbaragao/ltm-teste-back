@@ -43,3 +43,13 @@ C:\Projetos\Outros\Repositorios\framework-core-common\Common.Validation\obj\Debu
 C:\Projetos\Outros\Repositorios\framework-core-common\Common.Validation\obj\Debug\netcoreapp1.1\Common.Validation.AssemblyInfo.cs
 C:\Projetos\Outros\Repositorios\framework-core-common\Common.Validation\obj\Debug\netcoreapp1.1\Common.Validation.dll
 C:\Projetos\Outros\Repositorios\framework-core-common\Common.Validation\obj\Debug\netcoreapp1.1\Common.Validation.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Validation\bin\Debug\netcoreapp1.1\Common.Validation.deps.json
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Validation\bin\Debug\netcoreapp1.1\Common.Validation.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Validation\bin\Debug\netcoreapp1.1\Common.Validation.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Validation\bin\Debug\netcoreapp1.1\Common.Domain.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Validation\bin\Debug\netcoreapp1.1\Common.Domain.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Validation\obj\Debug\netcoreapp1.1\Common.Validation.csprojResolveAssemblyReference.cache
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Validation\obj\Debug\netcoreapp1.1\Common.Validation.csproj.CoreCompileInputs.cache
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Validation\obj\Debug\netcoreapp1.1\Common.Validation.AssemblyInfo.cs
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Validation\obj\Debug\netcoreapp1.1\Common.Validation.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Validation\obj\Debug\netcoreapp1.1\Common.Validation.pdb

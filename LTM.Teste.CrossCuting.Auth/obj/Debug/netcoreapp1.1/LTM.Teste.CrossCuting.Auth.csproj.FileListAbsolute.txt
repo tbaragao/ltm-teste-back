@@ -1,0 +1,12 @@
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting.Auth\bin\Debug\netcoreapp1.1\LTM.Teste.CrossCuting.Auth.deps.json
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting.Auth\bin\Debug\netcoreapp1.1\LTM.Teste.CrossCuting.Auth.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting.Auth\bin\Debug\netcoreapp1.1\LTM.Teste.CrossCuting.Auth.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting.Auth\bin\Debug\netcoreapp1.1\Common.API.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting.Auth\bin\Debug\netcoreapp1.1\Common.Domain.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting.Auth\bin\Debug\netcoreapp1.1\Common.API.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting.Auth\bin\Debug\netcoreapp1.1\Common.Domain.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting.Auth\obj\Debug\netcoreapp1.1\LTM.Teste.CrossCuting.Auth.csproj.CoreCompileInputs.cache
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting.Auth\obj\Debug\netcoreapp1.1\LTM.Teste.CrossCuting.Auth.AssemblyInfo.cs
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting.Auth\obj\Debug\netcoreapp1.1\LTM.Teste.CrossCuting.Auth.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting.Auth\obj\Debug\netcoreapp1.1\LTM.Teste.CrossCuting.Auth.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting.Auth\obj\Debug\netcoreapp1.1\LTM.Teste.CrossCuting.Auth.csprojResolveAssemblyReference.cache

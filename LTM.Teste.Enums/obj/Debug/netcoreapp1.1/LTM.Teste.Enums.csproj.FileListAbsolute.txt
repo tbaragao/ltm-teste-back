@@ -1,0 +1,8 @@
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Enums\bin\Debug\netcoreapp1.1\LTM.Teste.Enums.deps.json
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Enums\bin\Debug\netcoreapp1.1\LTM.Teste.Enums.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Enums\bin\Debug\netcoreapp1.1\LTM.Teste.Enums.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Enums\obj\Debug\netcoreapp1.1\LTM.Teste.Enums.csprojResolveAssemblyReference.cache
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Enums\obj\Debug\netcoreapp1.1\LTM.Teste.Enums.csproj.CoreCompileInputs.cache
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Enums\obj\Debug\netcoreapp1.1\LTM.Teste.Enums.AssemblyInfo.cs
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Enums\obj\Debug\netcoreapp1.1\LTM.Teste.Enums.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Enums\obj\Debug\netcoreapp1.1\LTM.Teste.Enums.pdb

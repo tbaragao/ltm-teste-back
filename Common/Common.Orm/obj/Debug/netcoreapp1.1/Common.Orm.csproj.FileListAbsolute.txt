@@ -43,3 +43,13 @@ C:\Projetos\Outros\Repositorios\framework-core-common\Common.Orm\obj\Debug\netco
 C:\Projetos\Outros\Repositorios\framework-core-common\Common.Orm\obj\Debug\netcoreapp1.1\Common.Orm.AssemblyInfo.cs
 C:\Projetos\Outros\Repositorios\framework-core-common\Common.Orm\obj\Debug\netcoreapp1.1\Common.Orm.dll
 C:\Projetos\Outros\Repositorios\framework-core-common\Common.Orm\obj\Debug\netcoreapp1.1\Common.Orm.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Orm\bin\Debug\netcoreapp1.1\Common.Orm.deps.json
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Orm\bin\Debug\netcoreapp1.1\Common.Orm.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Orm\bin\Debug\netcoreapp1.1\Common.Orm.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Orm\bin\Debug\netcoreapp1.1\Common.Domain.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Orm\bin\Debug\netcoreapp1.1\Common.Domain.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Orm\obj\Debug\netcoreapp1.1\Common.Orm.csprojResolveAssemblyReference.cache
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Orm\obj\Debug\netcoreapp1.1\Common.Orm.csproj.CoreCompileInputs.cache
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Orm\obj\Debug\netcoreapp1.1\Common.Orm.AssemblyInfo.cs
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Orm\obj\Debug\netcoreapp1.1\Common.Orm.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Orm\obj\Debug\netcoreapp1.1\Common.Orm.pdb

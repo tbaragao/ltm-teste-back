@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Common.Dto\Common.Dto.csproj" />
+    <ProjectReference Include="..\Common\Common.Dto\Common.Dto.csproj" />
     <ProjectReference Include="..\LTM.Teste.CrossCuting\LTM.Teste.CrossCuting.csproj" />
     <ProjectReference Include="..\LTM.Teste.Domain\LTM.Teste.Domain.csproj" />
     <ProjectReference Include="..\LTM.Teste.Dto\LTM.Teste.Dto.csproj" />

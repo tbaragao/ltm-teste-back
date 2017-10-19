@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Common.Orm\Common.Orm.csproj" />
+    <ProjectReference Include="..\Common\Common.Orm\Common.Orm.csproj" />
     <ProjectReference Include="..\LTM.Teste.Domain\LTM.Teste.Domain.csproj" />
     <ProjectReference Include="..\LTM.Teste.Enums\LTM.Teste.Enums.csproj" />
   </ItemGroup>

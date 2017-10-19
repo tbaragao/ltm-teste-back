@@ -1,0 +1,16 @@
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Domain\bin\Debug\netcoreapp1.1\LTM.Teste.Domain.deps.json
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Domain\bin\Debug\netcoreapp1.1\LTM.Teste.Domain.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Domain\bin\Debug\netcoreapp1.1\LTM.Teste.Domain.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Domain\bin\Debug\netcoreapp1.1\Common.Domain.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Domain\bin\Debug\netcoreapp1.1\Common.Validation.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Domain\bin\Debug\netcoreapp1.1\LTM.Teste.Domain.Filter.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Domain\bin\Debug\netcoreapp1.1\LTM.Teste.Enums.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Domain\bin\Debug\netcoreapp1.1\Common.Domain.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Domain\bin\Debug\netcoreapp1.1\Common.Validation.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Domain\bin\Debug\netcoreapp1.1\LTM.Teste.Domain.Filter.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Domain\bin\Debug\netcoreapp1.1\LTM.Teste.Enums.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Domain\obj\Debug\netcoreapp1.1\LTM.Teste.Domain.csprojResolveAssemblyReference.cache
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Domain\obj\Debug\netcoreapp1.1\LTM.Teste.Domain.csproj.CoreCompileInputs.cache
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Domain\obj\Debug\netcoreapp1.1\LTM.Teste.Domain.AssemblyInfo.cs
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Domain\obj\Debug\netcoreapp1.1\LTM.Teste.Domain.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Domain\obj\Debug\netcoreapp1.1\LTM.Teste.Domain.pdb

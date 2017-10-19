@@ -23,11 +23,11 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Common.API\Common.API.csproj" />
-    <ProjectReference Include="..\Common.Cache\Common.Cache.csproj" />
-    <ProjectReference Include="..\Common.Domain\Common.Domain.csproj" />
-    <ProjectReference Include="..\Common.Dto\Common.Dto.csproj" />
-    <ProjectReference Include="..\Common.Orm\Common.Orm.csproj" />
+    <ProjectReference Include="..\Common\Common.API\Common.API.csproj" />
+    <ProjectReference Include="..\Common\Common.Cache\Common.Cache.csproj" />
+    <ProjectReference Include="..\Common\Common.Domain\Common.Domain.csproj" />
+    <ProjectReference Include="..\Common\Common.Dto\Common.Dto.csproj" />
+    <ProjectReference Include="..\Common\Common.Orm\Common.Orm.csproj" />
     <ProjectReference Include="..\LTM.Teste.Application\LTM.Teste.Application.csproj" />
     <ProjectReference Include="..\LTM.Teste.CrossCuting\LTM.Teste.CrossCuting.csproj" />
     <ProjectReference Include="..\LTM.Teste.Data\LTM.Teste.Data.csproj" />

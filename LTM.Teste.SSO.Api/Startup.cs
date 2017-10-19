@@ -39,22 +39,14 @@ namespace Sso.Server.Api
 
         public void ConfigureServices(IServiceCollection services)
         {
-        
-            var cns =
-             Configuration
-                .GetSection("EFCoreConnStrings:SSO").Value;
-
-
-            services.AddIdentityServer();
+            services.AddIdentityServer()
                 //.AddSigningCredential(GetRSAParameters())
-                //.AddTemporarySigningCredential()
-                //.AddInMemoryApiResources(Config.GetApiResources())
-                //.AddInMemoryIdentityResources(Config.GetIdentityResources())
-                //.AddInMemoryClients(Config.GetClients(Configuration.GetSection("ConfigSettings").Get<ConfigSettingsBase>()));
-          
-            //for clarity of the next piece of code
+                .AddTemporarySigningCredential()
+                .AddInMemoryApiResources(Config.GetApiResources())
+                .AddInMemoryIdentityResources(Config.GetIdentityResources())
+                .AddInMemoryClients(Config.GetClients(Configuration.GetSection("ConfigSettings").Get<ConfigSettingsBase>()));
+
             services.AddScoped<CurrentUser>();
-            services.AddTransient<IResourceOwnerPasswordValidator, ResourceOwnerPasswordValidator>();
             services.Configure<ConfigSettingsBase>(Configuration.GetSection("ConfigSettings"));
             services.AddSingleton<IConfiguration>(Configuration);
 
@@ -67,12 +59,8 @@ namespace Sso.Server.Api
                         .AllowAnyMethod();
                 });
             });
-
-            // Add cross-origin resource sharing services Configurations
-            //Cors.Enable(services);
+            
             services.AddMvc();
-
-
         }
 
         public void Configure(IApplicationBuilder app, ILoggerFactory loggerFactory, IOptions<ConfigSettingsBase> configSettingsBase)

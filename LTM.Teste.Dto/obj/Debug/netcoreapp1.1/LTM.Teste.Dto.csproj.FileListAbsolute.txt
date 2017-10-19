@@ -1,0 +1,12 @@
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Dto\bin\Debug\netcoreapp1.1\LTM.Teste.Dto.deps.json
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Dto\obj\Debug\netcoreapp1.1\LTM.Teste.Dto.csprojResolveAssemblyReference.cache
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Dto\obj\Debug\netcoreapp1.1\LTM.Teste.Dto.csproj.CoreCompileInputs.cache
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Dto\obj\Debug\netcoreapp1.1\LTM.Teste.Dto.AssemblyInfo.cs
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Dto\bin\Debug\netcoreapp1.1\LTM.Teste.Dto.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Dto\bin\Debug\netcoreapp1.1\LTM.Teste.Dto.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Dto\bin\Debug\netcoreapp1.1\Common.Domain.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Dto\bin\Debug\netcoreapp1.1\Common.Dto.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Dto\bin\Debug\netcoreapp1.1\Common.Dto.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Dto\bin\Debug\netcoreapp1.1\Common.Domain.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Dto\obj\Debug\netcoreapp1.1\LTM.Teste.Dto.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Dto\obj\Debug\netcoreapp1.1\LTM.Teste.Dto.pdb

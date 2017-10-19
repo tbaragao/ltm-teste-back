@@ -35,12 +35,11 @@ namespace LTM.Teste.Gen
 
                 Arquiteture = ArquitetureType.DDD,
                 CamelCasing = true,
-                MakeFront = true,
 
                 TableInfo = new UniqueListTableInfo
                 {
 
-                   new TableInfo { TableName = "Teste", MakeDomain = true, MakeApp = true, MakeDto = true, MakeCrud = true, MakeApi= true, MakeSummary = true , MakeFront= true},
+                   new TableInfo { TableName = "Produto", MakeDomain = true, MakeApp = true, MakeDto = true, MakeCrud = true, MakeApi= true, MakeSummary = true},
 
                 }
             };

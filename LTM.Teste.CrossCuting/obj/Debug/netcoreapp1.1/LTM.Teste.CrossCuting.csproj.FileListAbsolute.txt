@@ -1,0 +1,12 @@
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting\bin\Debug\netcoreapp1.1\LTM.Teste.CrossCuting.deps.json
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting\bin\Debug\netcoreapp1.1\LTM.Teste.CrossCuting.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting\bin\Debug\netcoreapp1.1\LTM.Teste.CrossCuting.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting\bin\Debug\netcoreapp1.1\Common.API.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting\bin\Debug\netcoreapp1.1\Common.Domain.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting\bin\Debug\netcoreapp1.1\Common.API.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting\bin\Debug\netcoreapp1.1\Common.Domain.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting\obj\Debug\netcoreapp1.1\LTM.Teste.CrossCuting.csprojResolveAssemblyReference.cache
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting\obj\Debug\netcoreapp1.1\LTM.Teste.CrossCuting.csproj.CoreCompileInputs.cache
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting\obj\Debug\netcoreapp1.1\LTM.Teste.CrossCuting.AssemblyInfo.cs
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting\obj\Debug\netcoreapp1.1\LTM.Teste.CrossCuting.dll
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting\obj\Debug\netcoreapp1.1\LTM.Teste.CrossCuting.pdb
