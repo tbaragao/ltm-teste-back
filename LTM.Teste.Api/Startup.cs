@@ -33,14 +33,15 @@ namespace LTM.Teste.Api
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddMvc()
+            services
+                .AddMvc()
                 .AddJsonOptions(options =>
                 {
                     options.SerializerSettings.ContractResolver = new Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver();
                 });
 
-            services.AddDbContext<DbContextCore>(options => options.UseSqlServer(
-                 Configuration.GetSection("EFCoreConnStrings:Core").Value));
+            services
+                .AddDbContext<DbContextCore>(options => options.UseSqlServer(Configuration.GetSection("EFCoreConnStrings:Core").Value));
 
             services.AddDistributedRedisCache(options =>
             {
@@ -55,15 +56,13 @@ namespace LTM.Teste.Api
 
             ConfigContainerCore.Config(services);
 
-            services.AddMvc(options => { options.ModelBinderProviders.Insert(0, new DateTimePtBrModelBinderProvider()); })
-                .AddJsonOptions(options =>
-                {
-                    options.SerializerSettings.Converters.Add(new DateTimePtBrConverter());
-                });
+            services
+                .AddMvc(options => { options.ModelBinderProviders.Insert(0, new DateTimePtBrModelBinderProvider()); })
+                .AddJsonOptions(options => { options.SerializerSettings.Converters.Add(new DateTimePtBrConverter()); });
 
         }
+        
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, IOptions<ConfigSettingsBase> configSettingsBase)
         {
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
@@ -74,13 +73,10 @@ namespace LTM.Teste.Api
             {
                 Authority = configSettingsBase.Value.AuthorityEndPoint,
                 AllowedScopes = new List<string> { "ltmteste" },
-                RequireHttpsMetadata = false
+                RequireHttpsMetadata = false,
             });
 
-            var supportedCultures = new[]
-            {
-                new CultureInfo("pt-BR"),
-            };
+            var supportedCultures = new[] { new CultureInfo("pt-BR") };
 
             app.UseRequestLocalization(new RequestLocalizationOptions
             {

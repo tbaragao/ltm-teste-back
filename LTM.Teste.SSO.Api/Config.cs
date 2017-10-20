@@ -27,7 +27,7 @@ namespace Sso.Server.Api
         {
             var tools = new List<dynamic>
             {
-                new { name = "Teste", value = "/teste" },
+                new { name = "Produto", value = "/produto", icon = "fa-star" },
             };
 
             var _toolsForAdmin = JsonConvert.SerializeObject(tools);
@@ -40,7 +40,7 @@ namespace Sso.Server.Api
                 new Claim("role", "Administrador"),
             };
         }
-        
+
         public static IEnumerable<ApiResource> GetApiResources()
         {
             return new List<ApiResource>
@@ -84,6 +84,7 @@ namespace Sso.Server.Api
 
                     AllowedGrantTypes = GrantTypes.Implicit,
                     AllowAccessTokensViaBrowser = true,
+                    RequireConsent = false,
 
                     RedirectUris =
                     {

@@ -1,22 +1,11 @@
-﻿using Common.API;
-using Common.API.Extensions;
-using Common.Domain.Base;
+﻿using Common.Domain.Base;
 using Common.Domain.Model;
-using IdentityServer4.EntityFramework.DbContexts;
-using IdentityServer4.EntityFramework.Mappers;
-using IdentityServer4.Validation;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Security.Cryptography;
-using System.Security.Cryptography.X509Certificates;
 
 namespace Sso.Server.Api
 {
@@ -40,7 +29,6 @@ namespace Sso.Server.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddIdentityServer()
-                //.AddSigningCredential(GetRSAParameters())
                 .AddTemporarySigningCredential()
                 .AddInMemoryApiResources(Config.GetApiResources())
                 .AddInMemoryIdentityResources(Config.GetIdentityResources())
@@ -79,12 +67,6 @@ namespace Sso.Server.Api
             app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
         }
-
-     
-
-        private X509Certificate2 GetRSAParameters()
-        {
-            return new X509Certificate2(Path.Combine(_env.ContentRootPath, "idsvr3test.pfx"), "idsrv3test", X509KeyStorageFlags.Exportable);
-        }
+        
     }
 }
