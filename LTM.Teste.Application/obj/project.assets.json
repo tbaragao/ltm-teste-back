@@ -1521,20 +1521,20 @@
           "lib/netstandard1.3/System.ComponentModel.dll": {}
         }
       },
-      "System.ComponentModel.Annotations/4.1.0": {
+      "System.ComponentModel.Annotations/4.3.0": {
         "type": "package",
         "dependencies": {
-          "System.Collections": "4.0.11",
-          "System.ComponentModel": "4.0.1",
-          "System.Globalization": "4.0.11",
-          "System.Linq": "4.1.0",
-          "System.Reflection": "4.1.0",
-          "System.Reflection.Extensions": "4.0.1",
-          "System.Resources.ResourceManager": "4.0.1",
-          "System.Runtime": "4.1.0",
-          "System.Runtime.Extensions": "4.1.0",
-          "System.Text.RegularExpressions": "4.1.0",
-          "System.Threading": "4.0.11"
+          "System.Collections": "4.3.0",
+          "System.ComponentModel": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.Linq": "4.3.0",
+          "System.Reflection": "4.3.0",
+          "System.Reflection.Extensions": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Text.RegularExpressions": "4.3.0",
+          "System.Threading": "4.3.0"
         },
         "compile": {
           "ref/netstandard1.4/System.ComponentModel.Annotations.dll": {}
@@ -3494,7 +3494,7 @@
         "dependencies": {
           "Common.Dto": "1.0.0",
           "Microsoft.NETCore.App": "1.1.2",
-          "System.ComponentModel.Annotations": "4.1.0"
+          "System.ComponentModel.Annotations": "4.3.0"
         },
         "compile": {
           "bin/placeholder/LTM.Teste.Dto.dll": {}
@@ -5108,10 +5108,10 @@
         "system.componentmodel.nuspec"
       ]
     },
-    "System.ComponentModel.Annotations/4.1.0": {
-      "sha512": "rhnz80h8NnHJzoi0nbQJLRR2cJznyqG168q1bgoSpe5qpaME2SguXzuEzpY68nFCi2kBgHpbU4bRN2cP3unYRA==",
+    "System.ComponentModel.Annotations/4.3.0": {
+      "sha512": "SY2RLItHt43rd8J9D8M8e8NM4m+9WLN2uUd9G0n1I4hj/7w+v3pzK6ZBjexlG1/2xvLKQsqir3UGVSyBTXMLWA==",
       "type": "package",
-      "path": "system.componentmodel.annotations/4.1.0",
+      "path": "system.componentmodel.annotations/4.3.0",
       "files": [
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -5181,7 +5181,7 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._",
-        "system.componentmodel.annotations.4.1.0.nupkg.sha512",
+        "system.componentmodel.annotations.4.3.0.nupkg.sha512",
         "system.componentmodel.annotations.nuspec"
       ]
     },
@@ -9537,7 +9537,7 @@
       "LTM.Teste.Domain >= 1.0.0",
       "LTM.Teste.Dto >= 1.0.0",
       "Microsoft.NETCore.App >= 1.1.2",
-      "System.ComponentModel.Annotations >= 4.1.0"
+      "System.ComponentModel.Annotations >= 4.3.0"
     ]
   },
   "packageFolders": {
@@ -9590,7 +9590,7 @@
         "dependencies": {
           "System.ComponentModel.Annotations": {
             "target": "Package",
-            "version": "4.1.0"
+            "version": "4.3.0"
           },
           "Microsoft.NETCore.App": {
             "target": "Package",
@@ -9600,47 +9600,5 @@
         }
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: System.ComponentModel.Annotations from 4.3.0 to 4.1.0. Reference the package directly from the project to select a different version. \r\n LTM.Teste.Application (>= 1.0.0) -> Microsoft.NETCore.App (>= 1.1.2) -> System.ComponentModel.Annotations (>= 4.3.0) \r\n LTM.Teste.Application (>= 1.0.0) -> System.ComponentModel.Annotations (>= 4.1.0)",
-      "libraryId": "System.ComponentModel.Annotations",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v1.1"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: System.ComponentModel.Annotations from 4.3.0 to 4.1.0. Reference the package directly from the project to select a different version. \r\n LTM.Teste.Application (>= 1.0.0) -> Common.Dto (>= 1.0.0) -> System.ComponentModel.Annotations (>= 4.3.0) \r\n LTM.Teste.Application (>= 1.0.0) -> System.ComponentModel.Annotations (>= 4.1.0)",
-      "libraryId": "System.ComponentModel.Annotations",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v1.1"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: System.ComponentModel.Annotations from 4.3.0 to 4.1.0. Reference the package directly from the project to select a different version. \r\n LTM.Teste.Application (>= 1.0.0) -> LTM.Teste.Domain (>= 1.0.0) -> Common.Validation (>= 1.0.0) -> System.ComponentModel.Annotations (>= 4.3.0) \r\n LTM.Teste.Application (>= 1.0.0) -> System.ComponentModel.Annotations (>= 4.1.0)",
-      "libraryId": "System.ComponentModel.Annotations",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v1.1"
-      ]
-    },
-    {
-      "code": "NU1605",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Detected package downgrade: System.ComponentModel.Annotations from 4.3.0 to 4.1.0. Reference the package directly from the project to select a different version. \r\n LTM.Teste.Application (>= 1.0.0) -> LTM.Teste.CrossCuting.Ioc (>= 1.0.0) -> Common.API (>= 1.0.0) -> Microsoft.EntityFrameworkCore.InMemory (>= 1.1.2) -> Microsoft.EntityFrameworkCore (>= 1.1.2) -> System.ComponentModel.Annotations (>= 4.3.0) \r\n LTM.Teste.Application (>= 1.0.0) -> System.ComponentModel.Annotations (>= 4.1.0)",
-      "libraryId": "System.ComponentModel.Annotations",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v1.1"
-      ]
-    }
-  ]
+  }
 }

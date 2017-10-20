@@ -12,7 +12,7 @@ namespace Sso.Server.Api.Controllers
         [HttpGet]
         public string Get()
         {
-            return string.Format("is live at now {0}", DateTime.Now.ToTimeZone());
+            return string.Format("Is running at now {0}", DateTime.Now.ToTimeZone());
         }
     }
 }

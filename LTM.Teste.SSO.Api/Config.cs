@@ -45,7 +45,7 @@ namespace Sso.Server.Api
         {
             return new List<ApiResource>
             {
-                new ApiResource("ssoltmteste", "SPA Client Implicit")
+                new ApiResource("ltmteste-spa", "SPA Client Implicit")
                 {
                     Scopes = new List<Scope>()
                     {

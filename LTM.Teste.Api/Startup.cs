@@ -31,20 +31,16 @@ namespace LTM.Teste.Api
 
         public IConfigurationRoot Configuration { get; }
 
-        // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-			//Camelcase para json
             services.AddMvc()
-			.AddJsonOptions(options =>
-			{
-				options.SerializerSettings.ContractResolver = new Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver();
-			});
+                .AddJsonOptions(options =>
+                {
+                    options.SerializerSettings.ContractResolver = new Newtonsoft.Json.Serialization.CamelCasePropertyNamesContractResolver();
+                });
 
-            services.AddDbContext<DbContextCore>(
-             options => options.UseSqlServer(
-                 Configuration
-                    .GetSection("EFCoreConnStrings:Core").Value));
+            services.AddDbContext<DbContextCore>(options => options.UseSqlServer(
+                 Configuration.GetSection("EFCoreConnStrings:Core").Value));
 
             services.AddDistributedRedisCache(options =>
             {
@@ -55,35 +51,29 @@ namespace LTM.Teste.Api
             services.Configure<ConfigSettingsBase>(Configuration.GetSection("ConfigSettings"));
             services.AddSingleton<IConfiguration>(Configuration);
 
-            // Add cross-origin resource sharing services Configurations
             Cors.Enable(services);
 
-            // Add application services.
-            ConfigContainerCore.Config(services);			
+            ConfigContainerCore.Config(services);
 
-            // Add framework services.
             services.AddMvc(options => { options.ModelBinderProviders.Insert(0, new DateTimePtBrModelBinderProvider()); })
-            .AddJsonOptions(options =>
-            {
-                options.SerializerSettings.Converters.Add(new DateTimePtBrConverter());
-            });
+                .AddJsonOptions(options =>
+                {
+                    options.SerializerSettings.Converters.Add(new DateTimePtBrConverter());
+                });
 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory, IOptions<ConfigSettingsBase> configSettingsBase)
         {
-
-	    loggerFactory.AddConsole(Configuration.GetSection("Logging"));
+            loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
             app.UseDeveloperExceptionPage();
-
-
             app.UseIdentityServerAuthentication(new IdentityServerAuthenticationOptions
             {
                 Authority = configSettingsBase.Value.AuthorityEndPoint,
-                AllowedScopes = new List<string> { "ssosa" },
+                AllowedScopes = new List<string> { "ltmteste" },
                 RequireHttpsMetadata = false
             });
 
@@ -95,15 +85,13 @@ namespace LTM.Teste.Api
             app.UseRequestLocalization(new RequestLocalizationOptions
             {
                 DefaultRequestCulture = new RequestCulture("pt-BR"),
-                // Formatting numbers, dates, etc.
                 SupportedCultures = supportedCultures,
-                // UI strings that we have localized.
                 SupportedUICultures = supportedCultures
             });
 
             app.AddTokenMiddleware();
             app.UseMvc();
-	    	app.UseCors("AllowAnyOrigin");
+            app.UseCors("AllowAnyOrigin");
             AutoMapperConfigCore.RegisterMappings();
         }
 

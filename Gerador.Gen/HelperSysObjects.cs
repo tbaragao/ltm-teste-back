@@ -15,6 +15,10 @@ namespace LTM.Teste.Gen
         {
 
         }
-        
+
+        public override HelperSysObjectsBase DefineFrontTemplateClass(Context config)
+        {
+            return new HelperSysObjectsAngular20(config);
+        }
     }
 }

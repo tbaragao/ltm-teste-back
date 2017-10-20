@@ -17,7 +17,8 @@ namespace LTM.Teste.Api
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
-                //.UseStartup<Startup>()
+                .UseStartup<Startup>()
+                //.UseApplicationInsights()
                 .Build();
 
             host.Run();

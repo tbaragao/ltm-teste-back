@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v1.1",
-    "signature": "0cd2242e059b5e33aa38d03c8943b7a970ac2a57"
+    "signature": "5b8ef39a817cbea1cc599bf0deb514487136f5c0"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,8 +11,7 @@
           "Common.Dto": "1.0.0",
           "LTM.Teste.CrossCuting.Ioc": "1.0.0",
           "LTM.Teste.Domain": "1.0.0",
-          "LTM.Teste.Dto": "1.0.0",
-          "System.ComponentModel.Annotations": "4.1.0"
+          "LTM.Teste.Dto": "1.0.0"
         },
         "runtime": {
           "LTM.Teste.Application.dll": {}
@@ -293,7 +292,6 @@
           "Microsoft.Extensions.DependencyInjection": "1.1.0",
           "Microsoft.Extensions.Logging": "1.1.1",
           "Remotion.Linq": "2.1.1",
-          "System.ComponentModel.Annotations": "4.1.0",
           "System.Interactive.Async": "3.0.0"
         },
         "runtime": {
@@ -485,11 +483,6 @@
           "lib/netstandard1.3/System.Collections.Specialized.dll": {}
         }
       },
-      "system.componentmodel.annotations/4.1.0": {
-        "runtime": {
-          "lib/netstandard1.4/System.ComponentModel.Annotations.dll": {}
-        }
-      },
       "system.componentmodel.primitives/4.3.0": {
         "runtime": {
           "lib/netstandard1.0/System.ComponentModel.Primitives.dll": {}
@@ -636,8 +629,7 @@
       },
       "common.dto/1.0.0": {
         "dependencies": {
-          "Common.Domain": "1.0.0",
-          "System.ComponentModel.Annotations": "4.1.0"
+          "Common.Domain": "1.0.0"
         },
         "runtime": {
           "Common.Dto.dll": {}
@@ -645,8 +637,7 @@
       },
       "common.validation/1.0.0": {
         "dependencies": {
-          "Common.Domain": "1.0.0",
-          "System.ComponentModel.Annotations": "4.1.0"
+          "Common.Domain": "1.0.0"
         },
         "runtime": {
           "Common.Validation.dll": {}
@@ -683,8 +674,7 @@
       },
       "ltm.teste.dto/1.0.0": {
         "dependencies": {
-          "Common.Dto": "1.0.0",
-          "System.ComponentModel.Annotations": "4.1.0"
+          "Common.Dto": "1.0.0"
         },
         "runtime": {
           "LTM.Teste.Dto.dll": {}
@@ -1066,13 +1056,6 @@
       "sha512": "sha512-Epx8PoVZR0iuOnJJDzp7pWvdfMMOAvpUo95pC4ScH2mJuXkKA2Y4aR3cG9qt2klHgSons1WFh4kcGW7cSXvrxg==",
       "path": "system.collections.specialized/4.3.0",
       "hashPath": "system.collections.specialized.4.3.0.nupkg.sha512"
-    },
-    "system.componentmodel.annotations/4.1.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-rhnz80h8NnHJzoi0nbQJLRR2cJznyqG168q1bgoSpe5qpaME2SguXzuEzpY68nFCi2kBgHpbU4bRN2cP3unYRA==",
-      "path": "system.componentmodel.annotations/4.1.0",
-      "hashPath": "system.componentmodel.annotations.4.1.0.nupkg.sha512"
     },
     "system.componentmodel.primitives/4.3.0": {
       "type": "package",

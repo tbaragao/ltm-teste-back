@@ -7,11 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Common\Common.Dto\Common.Dto.csproj" />
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.3.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="System.ComponentModel.Annotations" Version="4.1.0" />
+    <ProjectReference Include="..\Common\Common.Dto\Common.Dto.csproj" />
   </ItemGroup>
 
 </Project>

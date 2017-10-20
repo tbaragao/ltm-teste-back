@@ -4485,7 +4485,7 @@
           "LTM.Teste.Domain": "1.0.0",
           "LTM.Teste.Dto": "1.0.0",
           "Microsoft.NETCore.App": "1.1.2",
-          "System.ComponentModel.Annotations": "4.1.0"
+          "System.ComponentModel.Annotations": "4.3.0"
         },
         "compile": {
           "bin/placeholder/LTM.Teste.Application.dll": {}
@@ -4563,7 +4563,7 @@
         "dependencies": {
           "Common.Dto": "1.0.0",
           "Microsoft.NETCore.App": "1.1.2",
-          "System.ComponentModel.Annotations": "4.1.0"
+          "System.ComponentModel.Annotations": "4.3.0"
         },
         "compile": {
           "bin/placeholder/LTM.Teste.Dto.dll": {}

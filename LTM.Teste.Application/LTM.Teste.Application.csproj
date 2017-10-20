@@ -7,14 +7,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Annotations" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Common\Common.Dto\Common.Dto.csproj" />
     <ProjectReference Include="..\LTM.Teste.CrossCuting\LTM.Teste.CrossCuting.csproj" />
     <ProjectReference Include="..\LTM.Teste.Domain\LTM.Teste.Domain.csproj" />
     <ProjectReference Include="..\LTM.Teste.Dto\LTM.Teste.Dto.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="System.ComponentModel.Annotations" Version="4.1.0" />
   </ItemGroup>
 
 </Project>

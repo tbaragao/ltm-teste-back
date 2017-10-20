@@ -30,7 +30,6 @@ namespace LTM.Teste.Gen
                 OutputClassApi = ConfigurationManager.AppSettings[string.Format("outputClassApi")],
                 OutputClassFilter = ConfigurationManager.AppSettings[string.Format("outputClassFilter")],
                 OutputClassSummary = ConfigurationManager.AppSettings[string.Format("outputClassSummary")],
-                OutputAngular = ConfigurationManager.AppSettings["OutputAngular"],
                 OutputClassSso = ConfigurationManager.AppSettings["OutputClassSso"],
 
                 Arquiteture = ArquitetureType.DDD,
@@ -44,17 +43,39 @@ namespace LTM.Teste.Gen
                 }
             };
         }
+        private Context ConfigContextAngular()
+        {
+            return new Context
+            {
+                ConnectionString = ConfigurationManager.ConnectionStrings["Core"].ConnectionString,
 
+                Namespace = "ltm.teste",
+                ContextName = "core",
+                ShowKeysInFront = true,
+                LengthBigField = 250,
 
+                OutputAngular = ConfigurationManager.AppSettings["OutputClassAngular"],
+
+                Arquiteture = ArquitetureType.DDD,
+                CamelCasing = true,
+                MakeFront = true,
+
+                TableInfo = new UniqueListTableInfo
+                {
+
+                   new TableInfo { TableName = "Produto", MakeFront = true },
+
+                }
+            };
+        }
 
         public IEnumerable<Context> GetConfigContext()
         {
 
             return new List<Context>
             {
-
                 ConfigContextCore(),
-
+                ConfigContextAngular()
             };
 
         }
