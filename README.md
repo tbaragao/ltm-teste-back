@@ -120,4 +120,4 @@ Não estará disponível uma carga dos dados, pois pelo SPA será possível real
     GO
 
 #### Testes
-Existe um projeto de testes unitários onde valida alguma condições, estados inviduais das estidades
+Existe um projeto de testes unitários onde valida alguma condições e estados inviduais das entidades
