@@ -14,20 +14,20 @@ namespace LTM.Teste.Api.Controllers
 {
     [Authorize]
     [Route("api/document/upload")]
-    public class UplaodController : Controller
+    public class UploadController : Controller
     {
 
         private readonly ILogger _logger;
         private readonly IHostingEnvironment _env;
         private readonly string _uploadRoot;
 
-        public UplaodController(ILoggerFactory logger, IHostingEnvironment env)
+        public UploadController(ILoggerFactory logger, IHostingEnvironment env)
         {
-            this._logger = logger.CreateLogger<UplaodController>();
+            this._logger = logger.CreateLogger<UploadController>();
             this._env = env;
             this._uploadRoot = "upload";
         }
-
+        
         [HttpPost]
         public async Task<IActionResult> Post(ICollection<IFormFile> files, string folder, bool rename = true)
         {

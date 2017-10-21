@@ -13,6 +13,9 @@ using System.Globalization;
 using Microsoft.AspNetCore.Localization;
 using Common.API.Extensions;
 using System.Collections.Generic;
+using Swashbuckle.AspNetCore.Swagger;
+using Microsoft.Extensions.PlatformAbstractions;
+using System.IO;
 
 namespace LTM.Teste.Api
 {
@@ -60,6 +63,21 @@ namespace LTM.Teste.Api
                 .AddMvc(options => { options.ModelBinderProviders.Insert(0, new DateTimePtBrModelBinderProvider()); })
                 .AddJsonOptions(options => { options.SerializerSettings.Converters.Add(new DateTimePtBrConverter()); });
 
+            services
+                .AddSwaggerGen(c => 
+                {
+                    c.SwaggerDoc("v1", new Info { Title = "LTM Teste Api", Version = "v1" });
+
+                    c.AddSecurityDefinition("Bearer", new ApiKeyScheme()
+                    {
+                        Description = "Acesse o painel administrativo onde realizou o login e clique para copiar o código exibido logo abaixo do seu nome.",
+                        Name = "Authorization",
+                        In = "header",
+                        Type = "apiKey"
+                    });
+
+                });
+
         }
         
 
@@ -84,6 +102,12 @@ namespace LTM.Teste.Api
                 DefaultRequestCulture = new RequestCulture("pt-BR"),
                 SupportedCultures = supportedCultures,
                 SupportedUICultures = supportedCultures
+            });
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "LTM Teste Api v1");
             });
 
             app.AddTokenMiddleware();
