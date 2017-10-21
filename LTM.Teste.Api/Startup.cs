@@ -72,7 +72,8 @@ namespace LTM.Teste.Api
             app.UseIdentityServerAuthentication(new IdentityServerAuthenticationOptions
             {
                 Authority = configSettingsBase.Value.AuthorityEndPoint,
-                AllowedScopes = new List<string> { "ltmteste" },
+                ApiName = "ltmteste-spa",
+                
                 RequireHttpsMetadata = false,
             });
 

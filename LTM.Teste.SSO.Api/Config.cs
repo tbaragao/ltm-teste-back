@@ -19,14 +19,15 @@ namespace Sso.Server.Api
                 SubjectId = "1",
                 Username = "Administrador",
                 Password = "123456",
-                Claims = ClaimsForAdmin("Administrador", "admin@email.com.br")
+                Claims = Claims("Administrador", "Administrador", "admin@email.com.br")
             };
         }
 
-        public static List<Claim> ClaimsForAdmin(string name, string email)
+        public static List<Claim> Claims(string name, string role, string email)
         {
             var tools = new List<dynamic>
             {
+                new { name = "Dashboard", value = "/", icon = "fa-home" },
                 new { name = "Produto", value = "/produto", icon = "fa-star" },
             };
 
@@ -37,7 +38,7 @@ namespace Sso.Server.Api
                 new Claim(JwtClaimTypes.Name, name),
                 new Claim(JwtClaimTypes.Email, email),
                 new Claim("tools", _toolsForAdmin),
-                new Claim("role", "Administrador"),
+                new Claim("role", role),
             };
         }
 
@@ -80,8 +81,11 @@ namespace Sso.Server.Api
                     ClientSecrets = { new Secret("ltmteste-spa".Sha256()) },
 
                     AccessTokenLifetime = 60,
-                    AlwaysIncludeUserClaimsInIdToken = true,
+                    IdentityTokenLifetime = 60,
+                    AuthorizationCodeLifetime = 60,
 
+                    AlwaysSendClientClaims = true,
+                    AlwaysIncludeUserClaimsInIdToken = true,
                     AllowedGrantTypes = GrantTypes.Implicit,
                     AllowAccessTokensViaBrowser = true,
                     RequireConsent = false,

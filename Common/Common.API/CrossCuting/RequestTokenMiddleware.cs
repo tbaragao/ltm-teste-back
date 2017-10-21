@@ -24,7 +24,9 @@ namespace Common.API.Extensions
 
         public async Task Invoke(HttpContext context, CurrentUser currentUser, IOptions<ConfigSettingsBase> configSettingsBase)
         {
+            var notFromServer = Convert.ToBoolean(context.Request.Headers["NotAuthorizeFromServer"]);
             var token = context.Request.Headers["Authorization"];
+
             if (!token.IsNullOrEmpaty())
             {
                 var tokenClear = token.ToString().Replace("Bearer ", "");
@@ -34,20 +36,19 @@ namespace Common.API.Extensions
                 {
                     try
                     {
-                        var claims = await GetClaimsFromServer(configSettingsBase, tokenClear);
-                        //var claims = GetClaimsFromUserPrincipal(context);
-                        //var claims = GetClaimsFromReadToken(tokenClear, jwt);
-
                         var claimsDictonary = new Dictionary<string, object>();
+                        var claims = await GetClaimsFromServer(configSettingsBase, tokenClear);
+
+                        if (notFromServer)
+                            claims = GetClaimsFromReadToken(tokenClear, jwt);
+
                         if (claims.IsAny())
                         {
-                            foreach (var item in claims
-                                .Select(_ => new KeyValuePair<string, object>(_.Type, _.Value)))
-                                {
-                                    if (!claimsDictonary.ContainsKey(item.Key))
-                                        claimsDictonary.Add(item.Key, item.Value);
-                                }
-
+                            foreach (var item in claims.Select(_ => new KeyValuePair<string, object>(_.Type, _.Value)))
+                            {
+                                if (!claimsDictonary.ContainsKey(item.Key))
+                                    claimsDictonary.Add(item.Key, item.Value);
+                            }
                         }
 
                         this.ConfigClaims(currentUser, tokenClear, claimsDictonary);
@@ -94,12 +95,9 @@ namespace Common.API.Extensions
 
     public static class RequestTokenMiddlewareExtension
     {
-
         public static IApplicationBuilder AddTokenMiddleware(this IApplicationBuilder app)
         {
             return app.UseMiddleware<RequestTokenMiddleware>();
         }
-
-
     }
 }

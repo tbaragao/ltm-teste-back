@@ -205,15 +205,22 @@ namespace IdentityServer4.Quickstart.UI
             var userId = userIdClaim.Value;
 
             // check if the external user is already provisioned
-            var user = _users.FindByExternalProvider(provider, userId);
-            if (user == null)
+            var userTest = _users.FindByExternalProvider(provider, userId);
+            if (userTest == null)
             {
                 // this sample simply auto-provisions new external user
                 // another common approach is to start a registrations workflow first
-                user = _users.AutoProvisionUser(provider, userId, claims);
+                userTest = _users.AutoProvisionUser(provider, userId, claims);
             }
 
             var additionalClaims = new List<Claim>();
+
+            var user = await this._usersServices.AuthByExternalLogin(claims, userTest);
+            if (user.Claims.IsAny())
+            {
+                foreach (var item in user.Claims)
+                    additionalClaims.Add(new Claim(item.Type, item.Value));
+            }
 
             // if the external system sent a session id claim, copy it over
             var sid = claims.FirstOrDefault(x => x.Type == JwtClaimTypes.SessionId);
@@ -253,16 +260,31 @@ namespace IdentityServer4.Quickstart.UI
         [HttpGet]
         public async Task<IActionResult> Logout(string logoutId, string returnUrl)
         {
-            var vm = await _account.BuildLogoutViewModelAsync(logoutId);
-            vm.ReturnUrl = returnUrl;
-
-            if (vm.ShowLogoutPrompt == false)
+            var vm = await _account.BuildLoggedOutViewModelAsync(logoutId);
+            if (vm.TriggerExternalSignout)
             {
-                // no need to show prompt
-                return await Logout(vm);
+                string url = Url.Action("Logout", new { logoutId = vm.LogoutId });
+                try
+                {
+                    await HttpContext.Authentication.SignOutAsync(vm.ExternalAuthenticationScheme,
+                        new AuthenticationProperties { RedirectUri = url });
+                }
+                catch (NotSupportedException) // this is for the external providers that don't have signout
+                { }
+                catch (InvalidOperationException) // this is for Windows/Negotiate
+                { }
             }
 
-            return View(vm);
+            await HttpContext.Authentication.SignOutAsync();
+
+            var user = await HttpContext.GetIdentityServerUserAsync();
+            if (user != null)
+                await _events.RaiseAsync(new UserLogoutSuccessEvent(user.GetSubjectId(), user.GetName()));
+
+            if (returnUrl != null)
+                return Redirect(returnUrl);
+
+            return View("LoggedOut", vm);
         }
 
         /// <summary>
@@ -298,8 +320,8 @@ namespace IdentityServer4.Quickstart.UI
             {
                 await _events.RaiseAsync(new UserLogoutSuccessEvent(user.GetSubjectId(), user.GetName()));
             }
-            
-             if (model.ReturnUrl != null)
+
+            if (model.ReturnUrl != null)
                 return Redirect(model.ReturnUrl);
 
             return View("LoggedOut", vm);

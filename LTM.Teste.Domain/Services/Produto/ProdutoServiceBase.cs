@@ -106,7 +106,7 @@ namespace LTM.Teste.Domain.Services
             {
                 Errors = new List<string>(),
                 IsValid = true,
-                Message = "produto Alterado com sucesso."
+                Message = "Produto alterado com sucesso."
             };
 
             base._cacheHelper.ClearCache();
@@ -131,7 +131,7 @@ namespace LTM.Teste.Domain.Services
                 return produto;
             
             produto = this.SaveDefault(produto, produtoOld);
-            base._validationResult.Message = "Produto cadastrado com sucesso :)";
+            base._validationResult.Message = "Produto cadastrado com sucesso";
 
             base._cacheHelper.ClearCache();
             return produto;

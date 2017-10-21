@@ -6,6 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
+using IdentityServer4;
 
 namespace Sso.Server.Api
 {
@@ -33,7 +34,7 @@ namespace Sso.Server.Api
                 .AddInMemoryApiResources(Config.GetApiResources())
                 .AddInMemoryIdentityResources(Config.GetIdentityResources())
                 .AddInMemoryClients(Config.GetClients(Configuration.GetSection("ConfigSettings").Get<ConfigSettingsBase>()));
-
+            
             services.AddScoped<CurrentUser>();
             services.Configure<ConfigSettingsBase>(Configuration.GetSection("ConfigSettings"));
             services.AddSingleton<IConfiguration>(Configuration);
@@ -42,12 +43,19 @@ namespace Sso.Server.Api
             {
                 options.AddPolicy("frontcore", policy =>
                 {
-                    policy.WithOrigins(Configuration.GetSection("ConfigSettings")["ClientAuthorityEndPoint"])
+                    policy.WithOrigins("http://localhost:4200")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod();
+                });
+
+                options.AddPolicy("backcore", policy =>
+                {
+                    policy.WithOrigins("http://localhost:8122")
                         .AllowAnyHeader()
                         .AllowAnyMethod();
                 });
             });
-            
+
             services.AddMvc();
         }
 
@@ -61,12 +69,20 @@ namespace Sso.Server.Api
             loggerFactory.AddFile("Logs/sm-sso-server-api-{Date}.log");
 
             app.UseCors("frontcore");
-  
+            app.UseCors("backcore");
+
             app.UseIdentityServer();
+            app.UseGoogleAuthentication(new GoogleOptions
+            {
+                AuthenticationScheme = "Google",
+                SignInScheme = IdentityServerConstants.ExternalCookieAuthenticationScheme,
+                ClientId = "152985192296-pull366pkttdg3r310kphpr6n0ia7ugr.apps.googleusercontent.com",
+                ClientSecret = "K4KAe33w0qYfBSIf0SIDe0jh"
+            });
 
             app.UseStaticFiles();
             app.UseMvcWithDefaultRoute();
         }
-        
+
     }
 }
