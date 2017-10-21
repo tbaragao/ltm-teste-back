@@ -1,1 +1,0 @@
-﻿            { path: '<#classNameLower#>', loadChildren: './main/<#classNameLowerAndSeparator#>/<#classNameLowerAndSeparator#>.module#<#className#>Module' },
