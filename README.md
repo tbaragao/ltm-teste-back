@@ -119,3 +119,5 @@ Não estará disponível uma carga dos dados, pois pelo SPA será possível real
     SET ANSI_PADDING OFF
     GO
 
+#### Testes
+Existe um projeto de testes unitários onde valida alguma condições, estados inviduais das estidades
