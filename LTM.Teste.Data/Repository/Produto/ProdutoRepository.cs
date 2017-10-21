@@ -18,34 +18,34 @@ namespace LTM.Teste.Data.Repository
         private CurrentUser _user;
         public ProdutoRepository(DbContextCore ctx, CurrentUser user) : base(ctx)
         {
-			this._user = user;
+            this._user = user;
         }
 
-      
+
         public IQueryable<Produto> GetBySimplefilters(ProdutoFilter filters)
         {
             var querybase = this.GetAll(this.DataAgregation(filters))
-								.WithBasicFilters(filters)
-								.WithCustomFilters(filters)
-								.OrderByProperty(filters.OrderByType, filters.OrderFields);
+                                .WithBasicFilters(filters)
+                                .WithCustomFilters(filters)
+                                .OrderByProperty(filters.OrderByType, filters.OrderFields);
             return querybase;
         }
 
         public async Task<Produto> GetById(ProdutoFilter model)
         {
             var _produto = await this.SingleOrDefaultAsync(this.GetAll(this.DataAgregation(model))
-               .Where(_=>_.ProdutoId == model.ProdutoId));
+               .Where(_ => _.ProdutoId == model.ProdutoId));
 
             return _produto;
         }
 
-		 public async Task<IEnumerable<dynamic>> GetDataItem(ProdutoFilter filters)
+        public async Task<IEnumerable<dynamic>> GetDataItem(ProdutoFilter filters)
         {
             var querybase = await this.ToListAsync(this.GetBySimplefilters(filters).Select(_ => new
             {
                 Id = _.ProdutoId
 
-            })); 
+            }));
 
             return querybase;
         }
@@ -55,7 +55,9 @@ namespace LTM.Teste.Data.Repository
             var querybase = await this.ToListAsync(this.GetBySimplefilters(filters).Select(_ => new
             {
                 Id = _.ProdutoId,
-
+                Nome = _.Nome,
+                Valor = _.Valor,
+                QtdeMinima = _.QtdeMinima
             }));
 
             return querybase;
@@ -136,7 +138,7 @@ namespace LTM.Teste.Data.Repository
             return source.SingleOrDefault();
         }
 
-		protected override Expression<Func<Produto, object>>[] DataAgregation(Expression<Func<Produto, object>>[] includes, FilterBase filter)
+        protected override Expression<Func<Produto, object>>[] DataAgregation(Expression<Func<Produto, object>>[] includes, FilterBase filter)
         {
             return base.DataAgregation(includes, filter);
         }
