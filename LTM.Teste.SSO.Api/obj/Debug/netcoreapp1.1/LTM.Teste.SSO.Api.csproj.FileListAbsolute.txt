@@ -50,3 +50,4 @@ C:\Projetos\teste\ltm-teste-back\LTM.Teste.SSO.Api\obj\Debug\netcoreapp1.1\LTM.T
 C:\Projetos\teste\ltm-teste-back\LTM.Teste.SSO.Api\obj\Debug\netcoreapp1.1\LTM.Teste.SSO.Api.AssemblyInfo.cs
 C:\Projetos\teste\ltm-teste-back\LTM.Teste.SSO.Api\obj\Debug\netcoreapp1.1\LTM.Teste.SSO.Api.dll
 C:\Projetos\teste\ltm-teste-back\LTM.Teste.SSO.Api\obj\Debug\netcoreapp1.1\LTM.Teste.SSO.Api.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.SSO.Api\obj\Debug\netcoreapp1.1\LTM.Teste.SSO.Api.AssemblyInfoInputs.cache

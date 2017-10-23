@@ -63,3 +63,4 @@ C:\Projetos\teste\ltm-teste-back\Common\Common.API\obj\Debug\netcoreapp1.1\Commo
 C:\Projetos\teste\ltm-teste-back\Common\Common.API\obj\Debug\netcoreapp1.1\Common.API.AssemblyInfo.cs
 C:\Projetos\teste\ltm-teste-back\Common\Common.API\obj\Debug\netcoreapp1.1\Common.API.dll
 C:\Projetos\teste\ltm-teste-back\Common\Common.API\obj\Debug\netcoreapp1.1\Common.API.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.API\obj\Debug\netcoreapp1.1\Common.API.AssemblyInfoInputs.cache

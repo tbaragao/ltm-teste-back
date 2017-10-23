@@ -8707,11 +8707,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Tests\\LTM.Teste.Tests.csproj",
+      "projectUniqueName": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Tests\\LTM.Teste.Tests.csproj",
       "projectName": "LTM.Teste.Tests",
-      "projectPath": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Tests\\LTM.Teste.Tests.csproj",
+      "projectPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Tests\\LTM.Teste.Tests.csproj",
       "packagesPath": "C:\\Users\\Bruno Seco\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Tests\\obj\\",
+      "outputPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bruno Seco\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8722,16 +8722,22 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Domain\\LTM.Teste.Domain.csproj": {
-              "projectPath": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Domain\\LTM.Teste.Domain.csproj"
+            "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Domain\\LTM.Teste.Domain.csproj": {
+              "projectPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Domain\\LTM.Teste.Domain.csproj"
             }
           }
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {

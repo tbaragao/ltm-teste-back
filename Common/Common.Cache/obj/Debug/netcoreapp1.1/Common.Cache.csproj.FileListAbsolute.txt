@@ -63,3 +63,4 @@ C:\Projetos\teste\ltm-teste-back\Common\Common.Cache\obj\Debug\netcoreapp1.1\Com
 C:\Projetos\teste\ltm-teste-back\Common\Common.Cache\obj\Debug\netcoreapp1.1\Common.Cache.AssemblyInfo.cs
 C:\Projetos\teste\ltm-teste-back\Common\Common.Cache\obj\Debug\netcoreapp1.1\Common.Cache.dll
 C:\Projetos\teste\ltm-teste-back\Common\Common.Cache\obj\Debug\netcoreapp1.1\Common.Cache.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Cache\obj\Debug\netcoreapp1.1\Common.Cache.AssemblyInfoInputs.cache

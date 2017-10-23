@@ -42,3 +42,4 @@ C:\Projetos\teste\ltm-teste-back\Common\Common.Domain\obj\Debug\netcoreapp1.1\Co
 C:\Projetos\teste\ltm-teste-back\Common\Common.Domain\obj\Debug\netcoreapp1.1\Common.Domain.AssemblyInfo.cs
 C:\Projetos\teste\ltm-teste-back\Common\Common.Domain\obj\Debug\netcoreapp1.1\Common.Domain.dll
 C:\Projetos\teste\ltm-teste-back\Common\Common.Domain\obj\Debug\netcoreapp1.1\Common.Domain.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Domain\obj\Debug\netcoreapp1.1\Common.Domain.AssemblyInfoInputs.cache

@@ -9407,11 +9407,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.CrossCuting\\LTM.Teste.CrossCuting.csproj",
+      "projectUniqueName": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.CrossCuting\\LTM.Teste.CrossCuting.csproj",
       "projectName": "LTM.Teste.CrossCuting",
-      "projectPath": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.CrossCuting\\LTM.Teste.CrossCuting.csproj",
+      "projectPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.CrossCuting\\LTM.Teste.CrossCuting.csproj",
       "packagesPath": "C:\\Users\\Bruno Seco\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.CrossCuting\\obj\\",
+      "outputPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.CrossCuting\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bruno Seco\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9422,19 +9422,25 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.API\\Common.API.csproj": {
-              "projectPath": "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.API\\Common.API.csproj"
+            "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.API\\Common.API.csproj": {
+              "projectPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.API\\Common.API.csproj"
             },
-            "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.Domain\\Common.Domain.csproj": {
-              "projectPath": "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.Domain\\Common.Domain.csproj"
+            "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.Domain\\Common.Domain.csproj": {
+              "projectPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.Domain\\Common.Domain.csproj"
             }
           }
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {

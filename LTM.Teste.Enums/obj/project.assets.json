@@ -7045,11 +7045,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Enums\\LTM.Teste.Enums.csproj",
+      "projectUniqueName": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Enums\\LTM.Teste.Enums.csproj",
       "projectName": "LTM.Teste.Enums",
-      "projectPath": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Enums\\LTM.Teste.Enums.csproj",
+      "projectPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Enums\\LTM.Teste.Enums.csproj",
       "packagesPath": "C:\\Users\\Bruno Seco\\.nuget\\packages\\",
-      "outputPath": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Enums\\obj\\",
+      "outputPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Enums\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bruno Seco\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7060,12 +7060,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {}
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {

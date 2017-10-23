@@ -1,8 +1,4 @@
-﻿// Copyright (c) Brock Allen & Dominick Baier. All rights reserved.
-// Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
-
-
-using IdentityServer4.Services;
+﻿using IdentityServer4.Services;
 using IdentityServer4.Stores;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
@@ -12,9 +8,6 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace IdentityServer4.Quickstart.UI
 {
-    /// <summary>
-    /// This sample controller allows a user to revoke grants given to clients
-    /// </summary>
     [SecurityHeaders]
     [Authorize(ActiveAuthenticationSchemes = IdentityServer4.IdentityServerConstants.DefaultCookieAuthenticationScheme)]
     public class GrantsController : Controller
@@ -31,19 +24,13 @@ namespace IdentityServer4.Quickstart.UI
             _clients = clients;
             _resources = resources;
         }
-
-        /// <summary>
-        /// Show list of grants
-        /// </summary>
+        
         [HttpGet]
         public async Task<IActionResult> Index()
         {
             return View("Index", await BuildViewModelAsync());
         }
-
-        /// <summary>
-        /// Handle postback to revoke a client
-        /// </summary>
+        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Revoke(string clientId)

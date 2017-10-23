@@ -22,3 +22,4 @@ C:\Projetos\teste\ltm-teste-back\LTM.Teste.CrossCuting\obj\Debug\netcoreapp1.1\L
 C:\Projetos\teste\ltm-teste-back\LTM.Teste.CrossCuting\obj\Debug\netcoreapp1.1\LTM.Teste.CrossCuting.AssemblyInfo.cs
 C:\Projetos\teste\ltm-teste-back\LTM.Teste.CrossCuting\obj\Debug\netcoreapp1.1\LTM.Teste.CrossCuting.dll
 C:\Projetos\teste\ltm-teste-back\LTM.Teste.CrossCuting\obj\Debug\netcoreapp1.1\LTM.Teste.CrossCuting.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.CrossCuting\obj\Debug\netcoreapp1.1\LTM.Teste.CrossCuting.AssemblyInfoInputs.cache

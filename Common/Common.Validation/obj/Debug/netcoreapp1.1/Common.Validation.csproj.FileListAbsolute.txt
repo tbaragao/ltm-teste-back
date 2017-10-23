@@ -63,3 +63,4 @@ C:\Projetos\teste\ltm-teste-back\Common\Common.Validation\obj\Debug\netcoreapp1.
 C:\Projetos\teste\ltm-teste-back\Common\Common.Validation\obj\Debug\netcoreapp1.1\Common.Validation.AssemblyInfo.cs
 C:\Projetos\teste\ltm-teste-back\Common\Common.Validation\obj\Debug\netcoreapp1.1\Common.Validation.dll
 C:\Projetos\teste\ltm-teste-back\Common\Common.Validation\obj\Debug\netcoreapp1.1\Common.Validation.pdb
+C:\Pessoal\ltm-teste\ltm-teste-back\Common\Common.Validation\obj\Debug\netcoreapp1.1\Common.Validation.AssemblyInfoInputs.cache

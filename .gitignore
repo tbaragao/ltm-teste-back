@@ -3,3 +3,6 @@
 ################################################################################
 
 /.vs/LTM.Teste/v15/Server/sqlite3
+/.vs/LTM.Teste/v15/sqlite3/db.lock
+*.ide-shm
+/.vs/LTM.Teste/v15/sqlite3/storage.ide-wal

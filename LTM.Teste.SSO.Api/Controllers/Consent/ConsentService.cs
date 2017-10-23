@@ -1,8 +1,4 @@
-﻿// Copyright (c) Brock Allen & Dominick Baier. All rights reserved.
-// Licensed under the Apache License, Version 2.0. See LICENSE in the project root for license information.
-
-
-using IdentityServer4.Models;
+﻿using IdentityServer4.Models;
 using IdentityServer4.Services;
 using IdentityServer4.Stores;
 using Microsoft.Extensions.Logging;
@@ -36,22 +32,16 @@ namespace IdentityServer4.Quickstart.UI
 
             ConsentResponse grantedConsent = null;
 
-            // user clicked 'no' - send back the standard 'access_denied' response
             if (model.Button == "no")
-            {
                 grantedConsent = ConsentResponse.Denied;
-            }
-            // user clicked 'yes' - validate the data
+
             else if (model.Button == "yes" && model != null)
             {
-                // if the user consented to some scope, build the response model
                 if (model.ScopesConsented != null && model.ScopesConsented.Any())
                 {
                     var scopes = model.ScopesConsented;
                     if (ConsentOptions.EnableOfflineAccess == false)
-                    {
                         scopes = scopes.Where(x => x != IdentityServer4.IdentityServerConstants.StandardScopes.OfflineAccess);
-                    }
 
                     grantedConsent = new ConsentResponse
                     {
@@ -60,32 +50,20 @@ namespace IdentityServer4.Quickstart.UI
                     };
                 }
                 else
-                {
                     result.ValidationError = ConsentOptions.MustChooseOneErrorMessage;
-                }
             }
             else
-            {
                 result.ValidationError = ConsentOptions.InvalidSelectionErrorMessage;
-            }
 
             if (grantedConsent != null)
             {
-                // validate return url is still valid
                 var request = await _interaction.GetAuthorizationContextAsync(model.ReturnUrl);
                 if (request == null) return result;
-
-                // communicate outcome of consent back to identityserver
                 await _interaction.GrantConsentAsync(request, grantedConsent);
-
-                // indiate that's it ok to redirect back to authorization endpoint
                 result.RedirectUri = model.ReturnUrl;
             }
             else
-            {
-                // we need to redisplay the consent UI
                 result.ViewModel = await BuildViewModelAsync(model.ReturnUrl, model);
-            }
 
             return result;
         }

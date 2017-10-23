@@ -6,7 +6,7 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v1.1": {
-      "ltm.teste.enums/1.0.0": {
+      "LTM.Teste.Enums/1.0.0": {
         "runtime": {
           "LTM.Teste.Enums.dll": {}
         }
@@ -14,7 +14,7 @@
     }
   },
   "libraries": {
-    "ltm.teste.enums/1.0.0": {
+    "LTM.Teste.Enums/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
