@@ -7499,11 +7499,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.Domain\\Common.Domain.csproj",
+      "projectUniqueName": "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.Domain\\Common.Domain.csproj",
       "projectName": "Common.Domain",
-      "projectPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.Domain\\Common.Domain.csproj",
+      "projectPath": "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.Domain\\Common.Domain.csproj",
       "packagesPath": "C:\\Users\\Bruno Seco\\.nuget\\packages\\",
-      "outputPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.Domain\\obj\\",
+      "outputPath": "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bruno Seco\\AppData\\Roaming\\NuGet\\NuGet.Config",

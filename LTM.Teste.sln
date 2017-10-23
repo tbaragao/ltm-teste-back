@@ -37,7 +37,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5-Sso", "5-Sso", "{D780188B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTM.Teste.Domain.Summary", "LTM.Teste.Domain.Summary\LTM.Teste.Domain.Summary.csproj", "{93F96FD6-694D-467D-B5D7-8153BD13EEB8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{90C43D24-8915-4D2D-9989-7FC7A23A149B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6-Test", "6-Test", "{90C43D24-8915-4D2D-9989-7FC7A23A149B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTM.Teste.Enums", "LTM.Teste.Enums\LTM.Teste.Enums.csproj", "{7A94D968-F876-4F73-B012-23B364B4D7FB}"
 EndProject
@@ -65,7 +65,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Cripto", "Common\Com
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common.Mail", "Common\Common.Mail\Common.Mail.csproj", "{BB1A77E4-8DFD-4585-B38D-FA5EF3D9359E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LTM.Teste.Tests", "LTM.Teste.Tests\LTM.Teste.Tests.csproj", "{5B359F63-FECD-4598-AE70-40C8046E86E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LTM.Teste.Tests", "LTM.Teste.Tests\LTM.Teste.Tests.csproj", "{5B359F63-FECD-4598-AE70-40C8046E86E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

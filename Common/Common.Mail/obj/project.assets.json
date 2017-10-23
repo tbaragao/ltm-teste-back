@@ -7445,11 +7445,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.Mail\\Common.Mail.csproj",
+      "projectUniqueName": "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.Mail\\Common.Mail.csproj",
       "projectName": "Common.Mail",
-      "projectPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.Mail\\Common.Mail.csproj",
+      "projectPath": "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.Mail\\Common.Mail.csproj",
       "packagesPath": "C:\\Users\\Bruno Seco\\.nuget\\packages\\",
-      "outputPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.Mail\\obj\\",
+      "outputPath": "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.Mail\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bruno Seco\\AppData\\Roaming\\NuGet\\NuGet.Config",

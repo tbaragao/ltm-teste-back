@@ -39,5 +39,8 @@
     <ProjectReference Include="..\LTM.Teste.Domain.Filter\LTM.Teste.Domain.Filter.csproj" />
     <ProjectReference Include="..\LTM.Teste.Domain\LTM.Teste.Domain.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
 
 </Project>

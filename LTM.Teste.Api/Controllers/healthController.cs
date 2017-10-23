@@ -2,7 +2,7 @@ using Common.Domain;
 using Microsoft.AspNetCore.Mvc;
 using System;
 
-namespace SmartSecretary.Api.Controllers
+namespace LTM.Teste.Api.Controllers
 {
 	
     [Route("api/[controller]")]

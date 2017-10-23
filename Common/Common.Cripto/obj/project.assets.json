@@ -7518,11 +7518,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.Cripto\\Common.Cripto.csproj",
+      "projectUniqueName": "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.Cripto\\Common.Cripto.csproj",
       "projectName": "Common.Cripto",
-      "projectPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.Cripto\\Common.Cripto.csproj",
+      "projectPath": "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.Cripto\\Common.Cripto.csproj",
       "packagesPath": "C:\\Users\\Bruno Seco\\.nuget\\packages\\",
-      "outputPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.Cripto\\obj\\",
+      "outputPath": "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.Cripto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bruno Seco\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7538,8 +7538,8 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.Domain\\Common.Domain.csproj": {
-              "projectPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.Domain\\Common.Domain.csproj"
+            "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.Domain\\Common.Domain.csproj": {
+              "projectPath": "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.Domain\\Common.Domain.csproj"
             }
           }
         }

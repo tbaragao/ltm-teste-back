@@ -28,5 +28,8 @@
     <ProjectReference Include="..\Common\Common.Orm\Common.Orm.csproj" />
     <ProjectReference Include="..\LTM.Teste.Data\LTM.Teste.Data.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
 
 </Project>

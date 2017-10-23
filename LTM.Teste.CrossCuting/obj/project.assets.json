@@ -9407,11 +9407,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.CrossCuting\\LTM.Teste.CrossCuting.csproj",
+      "projectUniqueName": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.CrossCuting\\LTM.Teste.CrossCuting.csproj",
       "projectName": "LTM.Teste.CrossCuting",
-      "projectPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.CrossCuting\\LTM.Teste.CrossCuting.csproj",
+      "projectPath": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.CrossCuting\\LTM.Teste.CrossCuting.csproj",
       "packagesPath": "C:\\Users\\Bruno Seco\\.nuget\\packages\\",
-      "outputPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.CrossCuting\\obj\\",
+      "outputPath": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.CrossCuting\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bruno Seco\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9427,11 +9427,11 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.API\\Common.API.csproj": {
-              "projectPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.API\\Common.API.csproj"
+            "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.API\\Common.API.csproj": {
+              "projectPath": "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.API\\Common.API.csproj"
             },
-            "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.Domain\\Common.Domain.csproj": {
-              "projectPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.Domain\\Common.Domain.csproj"
+            "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.Domain\\Common.Domain.csproj": {
+              "projectPath": "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.Domain\\Common.Domain.csproj"
             }
           }
         }

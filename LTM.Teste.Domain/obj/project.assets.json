@@ -7578,11 +7578,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Domain\\LTM.Teste.Domain.csproj",
+      "projectUniqueName": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Domain\\LTM.Teste.Domain.csproj",
       "projectName": "LTM.Teste.Domain",
-      "projectPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Domain\\LTM.Teste.Domain.csproj",
+      "projectPath": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Domain\\LTM.Teste.Domain.csproj",
       "packagesPath": "C:\\Users\\Bruno Seco\\.nuget\\packages\\",
-      "outputPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Domain\\obj\\",
+      "outputPath": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bruno Seco\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7598,17 +7598,17 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Enums\\LTM.Teste.Enums.csproj": {
-              "projectPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Enums\\LTM.Teste.Enums.csproj"
+            "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Enums\\LTM.Teste.Enums.csproj": {
+              "projectPath": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Enums\\LTM.Teste.Enums.csproj"
             },
-            "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Domain.Filter\\LTM.Teste.Domain.Filter.csproj": {
-              "projectPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Domain.Filter\\LTM.Teste.Domain.Filter.csproj"
+            "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Domain.Filter\\LTM.Teste.Domain.Filter.csproj": {
+              "projectPath": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Domain.Filter\\LTM.Teste.Domain.Filter.csproj"
             },
-            "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.Validation\\Common.Validation.csproj": {
-              "projectPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.Validation\\Common.Validation.csproj"
+            "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.Validation\\Common.Validation.csproj": {
+              "projectPath": "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.Validation\\Common.Validation.csproj"
             },
-            "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.Domain\\Common.Domain.csproj": {
-              "projectPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.Domain\\Common.Domain.csproj"
+            "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.Domain\\Common.Domain.csproj": {
+              "projectPath": "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.Domain\\Common.Domain.csproj"
             }
           }
         }

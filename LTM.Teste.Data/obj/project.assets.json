@@ -8308,11 +8308,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Data\\LTM.Teste.Data.csproj",
+      "projectUniqueName": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Data\\LTM.Teste.Data.csproj",
       "projectName": "LTM.Teste.Data",
-      "projectPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Data\\LTM.Teste.Data.csproj",
+      "projectPath": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Data\\LTM.Teste.Data.csproj",
       "packagesPath": "C:\\Users\\Bruno Seco\\.nuget\\packages\\",
-      "outputPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Data\\obj\\",
+      "outputPath": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bruno Seco\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8328,14 +8328,14 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Enums\\LTM.Teste.Enums.csproj": {
-              "projectPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Enums\\LTM.Teste.Enums.csproj"
+            "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Enums\\LTM.Teste.Enums.csproj": {
+              "projectPath": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Enums\\LTM.Teste.Enums.csproj"
             },
-            "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.Orm\\Common.Orm.csproj": {
-              "projectPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\Common\\Common.Orm\\Common.Orm.csproj"
+            "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.Orm\\Common.Orm.csproj": {
+              "projectPath": "C:\\Projetos\\teste\\ltm-teste-back\\Common\\Common.Orm\\Common.Orm.csproj"
             },
-            "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Domain\\LTM.Teste.Domain.csproj": {
-              "projectPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Domain\\LTM.Teste.Domain.csproj"
+            "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Domain\\LTM.Teste.Domain.csproj": {
+              "projectPath": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Domain\\LTM.Teste.Domain.csproj"
             }
           }
         }

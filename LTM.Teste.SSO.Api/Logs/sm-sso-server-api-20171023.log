@@ -1,0 +1,122 @@
+2017-10-23T09:34:32.7894711-02:00  [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. (553c312b)
+2017-10-23T09:34:33.0772361-02:00  [INF] User profile is available. Using '"C:\Users\Bruno Seco\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-10-23T09:34:33.8011945-02:00 0HL8Q1848JJ8T [INF] Request starting HTTP/1.1 GET http://localhost:4000/api/Health   (e5be5b71)
+2017-10-23T09:34:34.3246074-02:00 0HL8Q1848JJ8T [INF] Executing action method "Sso.Server.Api.Controllers.HealthController.Get (LTM.Teste.SSO.Api)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-10-23T09:34:34.3702270-02:00 0HL8Q1848JJ8T [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2017-10-23T09:34:34.5035833-02:00 0HL8Q1848JJ8T [INF] Executed action "Sso.Server.Api.Controllers.HealthController.Get (LTM.Teste.SSO.Api)" in 247.0493ms (afa2e885)
+2017-10-23T09:34:34.5381719-02:00 0HL8Q1848JJ8T [INF] Request finished in 762.7611ms 200 text/plain; charset=utf-8 (15c52c40)
+2017-10-23T09:35:09.3751495-02:00  [INF] You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation. (553c312b)
+2017-10-23T09:35:09.5415913-02:00  [INF] User profile is available. Using '"C:\Users\Bruno Seco\AppData\Local\ASP.NET\DataProtection-Keys"' as key repository and Windows DPAPI to encrypt keys at rest. (7ac5e29c)
+2017-10-23T09:35:09.9380372-02:00 0HL8Q18F18EJ9 [INF] Request starting HTTP/1.1 GET http://localhost:4000/api/Health   (e5be5b71)
+2017-10-23T09:35:10.4223248-02:00 0HL8Q18F18EJ9 [INF] Executing action method "Sso.Server.Api.Controllers.HealthController.Get (LTM.Teste.SSO.Api)" with arguments (null) - ModelState is Valid (ba7f4ac2)
+2017-10-23T09:35:10.4614293-02:00 0HL8Q18F18EJ9 [INF] Executing ObjectResult, writing value "Microsoft.AspNetCore.Mvc.ControllerContext". (4e968210)
+2017-10-23T09:35:10.5727260-02:00 0HL8Q18F18EJ9 [INF] Executed action "Sso.Server.Api.Controllers.HealthController.Get (LTM.Teste.SSO.Api)" in 196.4283ms (afa2e885)
+2017-10-23T09:35:10.6058142-02:00 0HL8Q18F18EJ9 [INF] Request finished in 698.4345ms 200 text/plain; charset=utf-8 (15c52c40)
+2017-10-23T09:42:14.5926090-02:00 0HL8Q18F18EJA [INF] Request starting HTTP/1.1 GET http://localhost:4000/connect/authorize?client_id=ltmteste-spa&redirect_uri=http://localhost:4200&response_type=id_token%20token&scope=openid%20ltmteste%20profile%20email&state=15087589340830.3281966087547483&nonce=xyz   (e5be5b71)
+2017-10-23T09:42:14.6036389-02:00 0HL8Q18F18EJA [INF] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize" (f7642de5)
+2017-10-23T09:42:14.8252275-02:00 0HL8Q18F18EJA [INF] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"ltmteste-spa\",
+  \"RedirectUri\": \"http://localhost:4200\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:4200\"
+  ],
+  \"SubjectId\": \"anonymous\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid ltmteste profile email\",
+  \"State\": \"15087589340830.3281966087547483\",
+  \"Nonce\": \"xyz\",
+  \"Raw\": {
+    \"client_id\": \"ltmteste-spa\",
+    \"redirect_uri\": \"http://localhost:4200\",
+    \"response_type\": \"id_token token\",
+    \"scope\": \"openid ltmteste profile email\",
+    \"state\": \"15087589340830.3281966087547483\",
+    \"nonce\": \"xyz\"
+  }
+}" (9a175e33)
+2017-10-23T09:42:14.8322460-02:00 0HL8Q18F18EJA [INF] Showing login: User is not authenticated (4b8d50b2)
+2017-10-23T09:42:14.8442794-02:00 0HL8Q18F18EJA [INF] Request finished in 252.0851ms 302  (15c52c40)
+2017-10-23T09:42:14.8482894-02:00 0HL8Q18F18EJB [INF] Request starting HTTP/1.1 GET http://localhost:4000/account/login?returnUrl=%2Fconnect%2Fauthorize%2Flogin%3Fclient_id%3Dltmteste-spa%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A4200%26response_type%3Did_token%2520token%26scope%3Dopenid%2520ltmteste%2520profile%2520email%26state%3D15087589340830.3281966087547483%26nonce%3Dxyz   (e5be5b71)
+2017-10-23T09:42:14.9525661-02:00 0HL8Q18F18EJB [INF] Executing action method "IdentityServer4.Quickstart.UI.AccountController.Login (LTM.Teste.SSO.Api)" with arguments (["/connect/authorize/login?client_id=ltmteste-spa&redirect_uri=http%3A%2F%2Flocalhost%3A4200&response_type=id_token%20token&scope=openid%20ltmteste%20profile%20email&state=15087589340830.3281966087547483&nonce=xyz"]) - ModelState is Valid (ba7f4ac2)
+2017-10-23T09:42:16.8536591-02:00 0HL8Q18F18EJB [INF] Executing ViewResult, running view at path "/Views/Account/Login.cshtml". (9707eebe)
+2017-10-23T09:42:17.2888182-02:00 0HL8Q18F18EJB [INF] Executed action "IdentityServer4.Quickstart.UI.AccountController.Login (LTM.Teste.SSO.Api)" in 2413.1011ms (afa2e885)
+2017-10-23T09:42:17.2928285-02:00 0HL8Q18F18EJB [INF] Request finished in 2444.7792ms 200 text/html; charset=utf-8 (15c52c40)
+2017-10-23T09:42:20.8730699-02:00 0HL8Q18F18EJC [INF] Request starting HTTP/1.1 POST http://localhost:4000/account/login?returnUrl=%2Fconnect%2Fauthorize%2Flogin%3Fclient_id%3Dltmteste-spa%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A4200%26response_type%3Did_token%2520token%26scope%3Dopenid%2520ltmteste%2520profile%2520email%26state%3D15087589340830.3281966087547483%26nonce%3Dxyz application/x-www-form-urlencoded 509 (e5be5b71)
+2017-10-23T09:42:20.9573300-02:00 0HL8Q18F18EJC [INF] Executing action method "IdentityServer4.Quickstart.UI.AccountController.Login (LTM.Teste.SSO.Api)" with arguments (["IdentityServer4.Quickstart.UI.LoginInputModel"]) - ModelState is Valid (ba7f4ac2)
+2017-10-23T09:42:20.9994068-02:00 0HL8Q18F18EJC [INF] AuthenticationScheme: "idsrv" signed in. (c66dd7e7)
+2017-10-23T09:42:21.0034164-02:00 0HL8Q18F18EJC [INF] Executing RedirectResult, redirecting to "/connect/authorize/login?client_id=ltmteste-spa&redirect_uri=http%3A%2F%2Flocalhost%3A4200&response_type=id_token%20token&scope=openid%20ltmteste%20profile%20email&state=15087589340830.3281966087547483&nonce=xyz". (d98d540e)
+2017-10-23T09:42:21.0044196-02:00 0HL8Q18F18EJC [INF] Executed action "IdentityServer4.Quickstart.UI.AccountController.Login (LTM.Teste.SSO.Api)" in 117.9734ms (afa2e885)
+2017-10-23T09:42:21.0044196-02:00 0HL8Q18F18EJC [INF] Request finished in 131.9931ms 302  (15c52c40)
+2017-10-23T09:42:21.0104458-02:00 0HL8Q18F18EJD [INF] Request starting HTTP/1.1 GET http://localhost:4000/connect/authorize/login?client_id=ltmteste-spa&redirect_uri=http%3A%2F%2Flocalhost%3A4200&response_type=id_token%20token&scope=openid%20ltmteste%20profile%20email&state=15087589340830.3281966087547483&nonce=xyz   (e5be5b71)
+2017-10-23T09:42:21.0164516-02:00 0HL8Q18F18EJD [INF] HttpContext.User merged via AutomaticAuthentication from authenticationScheme: "idsrv". (bdba1d38)
+2017-10-23T09:42:21.0174544-02:00 0HL8Q18F18EJD [INF] AuthenticationScheme: "idsrv" was successfully authenticated. (1805f3b3)
+2017-10-23T09:42:21.0174544-02:00 0HL8Q18F18EJD [INF] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.AuthorizeEndpoint" for "/connect/authorize/login" (f7642de5)
+2017-10-23T09:42:21.0214644-02:00 0HL8Q18F18EJD [INF] AuthenticationScheme: "idsrv" was successfully authenticated. (1805f3b3)
+2017-10-23T09:42:21.0224676-02:00 0HL8Q18F18EJD [INF] AuthenticationScheme: "idsrv" was successfully authenticated. (1805f3b3)
+2017-10-23T09:42:21.0224676-02:00 0HL8Q18F18EJD [INF] ValidatedAuthorizeRequest
+"{
+  \"ClientId\": \"ltmteste-spa\",
+  \"RedirectUri\": \"http://localhost:4200\",
+  \"AllowedRedirectUris\": [
+    \"http://localhost:4200\"
+  ],
+  \"SubjectId\": \"1\",
+  \"ResponseType\": \"id_token token\",
+  \"ResponseMode\": \"fragment\",
+  \"GrantType\": \"implicit\",
+  \"RequestedScopes\": \"openid ltmteste profile email\",
+  \"State\": \"15087589340830.3281966087547483\",
+  \"Nonce\": \"xyz\",
+  \"SessionId\": \"c526daa86d0bafd3f1f81c2d70ab876c\",
+  \"Raw\": {
+    \"client_id\": \"ltmteste-spa\",
+    \"redirect_uri\": \"http://localhost:4200\",
+    \"response_type\": \"id_token token\",
+    \"scope\": \"openid ltmteste profile email\",
+    \"state\": \"15087589340830.3281966087547483\",
+    \"nonce\": \"xyz\"
+  }
+}" (9a175e33)
+2017-10-23T09:42:21.1919507-02:00 0HL8Q18F18EJD [INF] Authorize endpoint response
+"{
+  \"SubjectId\": \"1\",
+  \"ClientId\": \"ltmteste-spa\",
+  \"RedirectUri\": \"http://localhost:4200\",
+  \"State\": \"15087589340830.3281966087547483\",
+  \"Scope\": \"openid profile email ltmteste\"
+}" (5993a9fa)
+2017-10-23T09:42:21.2019467-02:00 0HL8Q18F18EJD [INF] AuthenticationScheme: "idsrv" was successfully authenticated. (1805f3b3)
+2017-10-23T09:42:21.2070173-02:00 0HL8Q18F18EJD [INF] AuthenticationScheme: "idsrv" was successfully authenticated. (1805f3b3)
+2017-10-23T09:42:21.2089683-02:00 0HL8Q18F18EJD [INF] AuthenticationScheme: "idsrv" signed in. (c66dd7e7)
+2017-10-23T09:42:21.2119719-02:00 0HL8Q18F18EJD [INF] Request finished in 202.176ms 302  (15c52c40)
+2017-10-23T09:42:24.0254927-02:00 0HL8Q18F18EJE [INF] Request starting HTTP/1.1 GET http://localhost:4000/.well-known/openid-configuration   (e5be5b71)
+2017-10-23T09:42:24.0285002-02:00 0HL8Q18F18EJE [INF] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration" (f7642de5)
+2017-10-23T09:42:24.0565759-02:00 0HL8Q18F18EJE [INF] Request finished in 31.0564ms 200 application/json (15c52c40)
+2017-10-23T09:42:24.1254460-02:00 0HL8Q18F18EJF [INF] Request starting HTTP/1.1 GET http://localhost:4000/.well-known/openid-configuration/jwks   (e5be5b71)
+2017-10-23T09:42:24.1264492-02:00 0HL8Q18F18EJF [INF] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration/jwks" (f7642de5)
+2017-10-23T09:42:24.1365481-02:00 0HL8Q18F18EJF [INF] Request finished in 16.9108ms 200 application/json (15c52c40)
+2017-10-23T09:42:24.2548026-02:00 0HL8Q18F18EJG [INF] Request starting HTTP/1.1 GET http://localhost:4000/.well-known/openid-configuration   (e5be5b71)
+2017-10-23T09:42:24.2548026-02:00 0HL8Q18F18EJG [INF] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration" (f7642de5)
+2017-10-23T09:42:24.2558118-02:00 0HL8Q18F18EJG [INF] Request finished in 0.9189ms 200 application/json (15c52c40)
+2017-10-23T09:42:24.2658318-02:00 0HL8Q18F18EJH [INF] Request starting HTTP/1.1 GET http://localhost:4000/.well-known/openid-configuration/jwks   (e5be5b71)
+2017-10-23T09:42:24.2658318-02:00 0HL8Q18F18EJH [INF] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration/jwks" (f7642de5)
+2017-10-23T09:42:24.2668350-02:00 0HL8Q18F18EJH [INF] Request finished in 0.7538ms 200 application/json (15c52c40)
+2017-10-23T09:42:24.2698911-02:00 0HL8Q18F18EJI [INF] Request starting HTTP/1.1 GET http://localhost:4000/connect/userinfo   (e5be5b71)
+2017-10-23T09:42:24.2855233-02:00 0HL8Q18F18EJI [INF] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.UserInfoEndpoint" for "/connect/userinfo" (f7642de5)
+2017-10-23T09:42:24.2855233-02:00 0HL8Q18F18EJI [INF] ValidateAsync: Locating bearer token (a4b419b4)
+2017-10-23T09:42:24.3829275-02:00 0HL8Q18F18EJI [INF] Profile service returned to the following claim types: "sub name email" (a9217bec)
+2017-10-23T09:42:24.3849329-02:00 0HL8Q18F18EJI [INF] Request finished in 101.3581ms 200 application/json (15c52c40)
+2017-10-23T09:42:26.1654888-02:00 0HL8Q18F18EJJ [INF] Request starting HTTP/1.1 GET http://localhost:4000/.well-known/openid-configuration   (e5be5b71)
+2017-10-23T09:42:26.1654888-02:00 0HL8Q18F18EJJ [INF] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration" (f7642de5)
+2017-10-23T09:42:26.1664892-02:00 0HL8Q18F18EJJ [INF] Request finished in 0.9527ms 200 application/json (15c52c40)
+2017-10-23T09:42:26.1775212-02:00 0HL8Q18F18EJK [INF] Request starting HTTP/1.1 GET http://localhost:4000/.well-known/openid-configuration/jwks   (e5be5b71)
+2017-10-23T09:42:26.1785279-02:00 0HL8Q18F18EJK [INF] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.DiscoveryEndpoint" for "/.well-known/openid-configuration/jwks" (f7642de5)
+2017-10-23T09:42:26.1785279-02:00 0HL8Q18F18EJK [INF] Request finished in 1.0398ms 200 application/json (15c52c40)
+2017-10-23T09:42:26.1865443-02:00 0HL8Q18F18EJL [INF] Request starting HTTP/1.1 GET http://localhost:4000/connect/userinfo   (e5be5b71)
+2017-10-23T09:42:26.1865443-02:00 0HL8Q18F18EJL [INF] Invoking IdentityServer endpoint: "IdentityServer4.Endpoints.UserInfoEndpoint" for "/connect/userinfo" (f7642de5)
+2017-10-23T09:42:26.1895518-02:00 0HL8Q18F18EJL [INF] ValidateAsync: Locating bearer token (a4b419b4)
+2017-10-23T09:42:26.1985742-02:00 0HL8Q18F18EJL [INF] Profile service returned to the following claim types: "sub name email" (a9217bec)
+2017-10-23T09:42:26.1985742-02:00 0HL8Q18F18EJL [INF] Request finished in 12.3793ms 200 application/json (15c52c40)

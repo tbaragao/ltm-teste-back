@@ -8,3 +8,13 @@ C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Domain.Filter\obj\Debug\netcoreapp
 C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Domain.Filter\obj\Debug\netcoreapp1.1\LTM.Teste.Domain.Filter.AssemblyInfo.cs
 C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Domain.Filter\obj\Debug\netcoreapp1.1\LTM.Teste.Domain.Filter.dll
 C:\Pessoal\ltm-teste\ltm-teste-back\LTM.Teste.Domain.Filter\obj\Debug\netcoreapp1.1\LTM.Teste.Domain.Filter.pdb
+C:\Projetos\teste\ltm-teste-back\LTM.Teste.Domain.Filter\bin\Debug\netcoreapp1.1\LTM.Teste.Domain.Filter.deps.json
+C:\Projetos\teste\ltm-teste-back\LTM.Teste.Domain.Filter\bin\Debug\netcoreapp1.1\LTM.Teste.Domain.Filter.dll
+C:\Projetos\teste\ltm-teste-back\LTM.Teste.Domain.Filter\bin\Debug\netcoreapp1.1\LTM.Teste.Domain.Filter.pdb
+C:\Projetos\teste\ltm-teste-back\LTM.Teste.Domain.Filter\bin\Debug\netcoreapp1.1\Common.Domain.dll
+C:\Projetos\teste\ltm-teste-back\LTM.Teste.Domain.Filter\bin\Debug\netcoreapp1.1\Common.Domain.pdb
+C:\Projetos\teste\ltm-teste-back\LTM.Teste.Domain.Filter\obj\Debug\netcoreapp1.1\LTM.Teste.Domain.Filter.csprojResolveAssemblyReference.cache
+C:\Projetos\teste\ltm-teste-back\LTM.Teste.Domain.Filter\obj\Debug\netcoreapp1.1\LTM.Teste.Domain.Filter.csproj.CoreCompileInputs.cache
+C:\Projetos\teste\ltm-teste-back\LTM.Teste.Domain.Filter\obj\Debug\netcoreapp1.1\LTM.Teste.Domain.Filter.AssemblyInfo.cs
+C:\Projetos\teste\ltm-teste-back\LTM.Teste.Domain.Filter\obj\Debug\netcoreapp1.1\LTM.Teste.Domain.Filter.dll
+C:\Projetos\teste\ltm-teste-back\LTM.Teste.Domain.Filter\obj\Debug\netcoreapp1.1\LTM.Teste.Domain.Filter.pdb

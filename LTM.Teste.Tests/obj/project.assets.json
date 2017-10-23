@@ -8707,11 +8707,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Tests\\LTM.Teste.Tests.csproj",
+      "projectUniqueName": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Tests\\LTM.Teste.Tests.csproj",
       "projectName": "LTM.Teste.Tests",
-      "projectPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Tests\\LTM.Teste.Tests.csproj",
+      "projectPath": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Tests\\LTM.Teste.Tests.csproj",
       "packagesPath": "C:\\Users\\Bruno Seco\\.nuget\\packages\\",
-      "outputPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Tests\\obj\\",
+      "outputPath": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bruno Seco\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8727,8 +8727,8 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Domain\\LTM.Teste.Domain.csproj": {
-              "projectPath": "C:\\Pessoal\\ltm-teste\\ltm-teste-back\\LTM.Teste.Domain\\LTM.Teste.Domain.csproj"
+            "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Domain\\LTM.Teste.Domain.csproj": {
+              "projectPath": "C:\\Projetos\\teste\\ltm-teste-back\\LTM.Teste.Domain\\LTM.Teste.Domain.csproj"
             }
           }
         }
